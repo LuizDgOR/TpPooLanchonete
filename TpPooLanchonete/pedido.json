@@ -1,0 +1,24 @@
+[
+  {
+    "cpfCliente": "123456",
+    "nomeCliente": "julia",
+    "numeroPedido": "1",
+    "dataPedido": "2021",
+    "horarioPedido": "3",
+    "horarioEntrega": "4",
+    "idDescricaoPedido": "5",
+    "idAdicionais": "6",
+    "status": "em preparo"
+  },
+  {
+    "cpfCliente": "1234567",
+    "nomeCliente": "Ananda",
+    "numeroPedido": "2",
+    "dataPedido": "2020",
+    "horarioPedido": "21h",
+    "horarioEntrega": "23h",
+    "idDescricaoPedido": "2",
+    "idAdicionais": "3",
+    "status": "entregue"
+  }
+]

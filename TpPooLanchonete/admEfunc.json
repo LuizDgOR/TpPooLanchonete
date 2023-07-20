@@ -1,0 +1,158 @@
+[
+  {
+    "cargo": "func1",
+    "salario": "1200",
+    "nome": " Paula",
+    "cpf": "123456789-10",
+    "id": "1 ",
+    "endereco": " bela vista",
+    "telefone": "4545455454",
+    "senha": "1235454",
+    "nivel": "1"
+  },
+  {
+    "cargo": "func2",
+    "salario": "1200",
+    "nome": " Paulo",
+    "cpf": "12345612211789-10",
+    "id": "2 ",
+    "endereco": " bela vista",
+    "telefone": "4545455432354",
+    "senha": "1254544545435454",
+    "nivel": "1"
+  },
+  {
+    "cargo": "func3",
+    "salario": "1200",
+    "nome": "Gustavo",
+    "cpf": "1324342121344",
+    "id": "3",
+    "endereco": "centro",
+    "telefone": "343124143141",
+    "senha": "1456",
+    "nivel": "1"
+  },
+  {
+    "cargo": "func4",
+    "salario": "1200",
+    "nome": "Joao",
+    "cpf": "13243434211214",
+    "id": "4",
+    "endereco": "centro",
+    "telefone": "343124143141",
+    "senha": "45623",
+    "nivel": "1"
+  },
+  null,
+  {
+    "cargo": "func5",
+    "salario": "1200",
+    "nome": "Julia",
+    "cpf": "13243212124344",
+    "id": "5",
+    "endereco": "centro",
+    "telefone": "343124143141",
+    "senha": "456121",
+    "nivel": "1"
+  },
+  {
+    "cargo": "func6",
+    "salario": "1200",
+    "nome": "Fernando",
+    "cpf": "13254443434344",
+    "id": "6",
+    "endereco": "centro",
+    "telefone": "343124143141",
+    "senha": "456244",
+    "nivel": "1"
+  },
+  {
+    "cargo": "func7",
+    "salario": "1200",
+    "nome": "Fernanda",
+    "cpf": "132476767634344",
+    "id": "7",
+    "endereco": "centro",
+    "telefone": "343124143141",
+    "senha": "456121",
+    "nivel": "1"
+  },
+  {
+    "cargo": "func8",
+    "salario": "1200",
+    "nome": "Gabriela",
+    "cpf": "1324121212134344",
+    "id": "8",
+    "endereco": "centro",
+    "telefone": "343124143141",
+    "senha": "45612121",
+    "nivel": "1"
+  },
+  {
+    "cargo": "func9",
+    "salario": "1200",
+    "nome": "Guilherme",
+    "cpf": "132121212434344",
+    "id": "9",
+    "endereco": "centro",
+    "telefone": "343124143141",
+    "senha": "4577776",
+    "nivel": "1"
+  }
+][
+  {
+    "cargo": "adm1",
+    "salario": "3000",
+    "nome": "Fernando miguel",
+    "cpf": "123434343",
+    "id": "11",
+    "endereco": " rio grande",
+    "telefone": "12333",
+    "senha": " 134566",
+    "nivel": "2"
+  },
+  {
+    "cargo": "adm2",
+    "salario": "3000",
+    "nome": "Fernanda",
+    "cpf": "12343434312",
+    "id": "12",
+    "endereco": " rio grande",
+    "telefone": "12333",
+    "senha": " 134566",
+    "nivel": "2"
+  },
+  {
+    "cargo": "adm3",
+    "salario": "3000",
+    "nome": "Francisco",
+    "cpf": "1234343421213",
+    "id": "13",
+    "endereco": " rio grande",
+    "telefone": "12333",
+    "senha": " 134566",
+    "nivel": "2"
+  },
+  {
+    "cargo": "adm4",
+    "salario": "3000",
+    "nome": "Izabela",
+    "cpf": "123434342121213",
+    "id": "14",
+    "endereco": " rio grande",
+    "telefone": "12333",
+    "senha": " 134566",
+    "nivel": "2"
+  },
+  {
+    "cargo": "adm5",
+    "salario": "3000",
+    "nome": "Milena",
+    "cpf": "123434342121213",
+    "id": "15",
+    "endereco": " rio grande",
+    "telefone": "12333",
+    "senha": " 134566",
+    "nivel": "2"
+  }
+]

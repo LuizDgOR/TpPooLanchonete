@@ -1,0 +1,57 @@
+[
+  {
+    "cargo": "func12",
+    "salario": "1200",
+    "nome": "Bruno",
+    "cpf": "1324212134344",
+    "id": "100",
+    "endereco": "centro",
+    "telefone": "343124143141",
+    "senha": "4560989898",
+    "nivel": "1"
+  },
+  {
+    "cargo": "func10",
+    "salario": "1200",
+    "nome": "Bruno",
+    "cpf": "1324212134344",
+    "id": "10",
+    "endereco": "centro",
+    "telefone": "343124143141",
+    "senha": "4560989898",
+    "nivel": "1"
+  },
+  {
+    "cargo": "Atendente",
+    "salario": "1500",
+    "nome": "Julia",
+    "cpf": "13",
+    "id": "90",
+    "endereco": "centro",
+    "telefone": "343124143141",
+    "senha": "1",
+    "nivel": "1"
+  },
+  {
+    "cargo": "Garçom",
+    "salario": "20000",
+    "nome": "Joao",
+    "cpf": "12344343",
+    "id": "91",
+    "endereco": "rua gaivotas",
+    "telefone": "9982198291",
+    "senha": "12434343",
+    "nivel": "2"
+  },
+  {
+    "cargo": "pedro",
+    "salario": "1234",
+    "nome": "1",
+    "cpf": "func",
+    "id": "45",
+    "endereco": "444444444",
+    "telefone": "rua",
+    "senha": "77777",
+    "nivel": "123"
+  }
+]

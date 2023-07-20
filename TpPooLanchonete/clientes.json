@@ -1,0 +1,44 @@
+[
+  {
+    "nome": "Julia",
+    "endereco": "Beco das gaivotas",
+    "telefone": "1232",
+    "id": "1",
+    "cpf": "123456"
+  },
+  {
+    "nome": "Fernanda",
+    "endereco": "Espirito Santo",
+    "telefone": "12322",
+    "id": "2",
+    "cpf": "1234567"
+  },
+  {
+    "nome": "Natalia",
+    "endereco": "Beco das gaivotas",
+    "telefone": "12323",
+    "id": "3",
+    "cpf": "12345678"
+  },
+  {
+    "nome": "Amanda",
+    "endereco": "Beco das gaivotas",
+    "telefone": "12362",
+    "id": "4",
+    "cpf": "123456789"
+  },
+  {
+    "nome": "Paulo",
+    "endereco": "Beco das gaivotas",
+    "telefone": "12328",
+    "id": "5",
+    "cpf": "12345678910"
+  },
+  {
+    "nome": "Gabriela",
+    "endereco": "Beco das gaivotas",
+    "telefone": "12329",
+    "id": "6",
+    "cpf": "1234567891011"
+  }
+]
