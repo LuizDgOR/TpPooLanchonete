@@ -1,4 +1,6 @@
 
+import model.Pedido;
+
 import java.util.Comparator;
 
 /*

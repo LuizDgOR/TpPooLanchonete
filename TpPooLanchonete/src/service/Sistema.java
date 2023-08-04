@@ -1,3 +1,5 @@
+package service;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.io.FileWriter;
@@ -65,7 +67,7 @@ public class Sistema {
     
     /**Add Funcionarios  no vetor. */
     
-    public void addFuncs(Funcionario funcs,int n){
+    public void addFuncs(Funcionario funcs, int n){
         this.funcs[n] = funcs;
     };
     /**Add  adms no vetor. */

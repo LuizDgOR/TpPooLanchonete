@@ -1,4 +1,4 @@
-/*
+package model;/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -7,15 +7,16 @@
  *
  * @author Luiz
  */
+
+
 public class Cliente  {
     
-   String nome;
-   String endereco;
-   String telefone;
-   String id;
-   String cpf;
-   private static int contador = 0;
-    
+   private String nome;
+   private String endereco;
+   private String telefone;
+   private String id;
+   private String cpf;
+
     public Cliente(String nome, String endereco, String telefone, String id, String cpf) {
         this.nome = nome;
         this.endereco = endereco;
@@ -23,17 +24,7 @@ public class Cliente  {
         this.id = id;
         this.cpf = cpf;
     }
-    public Cliente(){
-        contador ++;
-    }
 
-    public static int getContador() {
-        return contador;
-    }
-
-    public static void setContador(int contador) {
-        Cliente.contador = contador;
-    }
     public String getNome() {
         return nome;
     }
@@ -73,14 +64,4 @@ public class Cliente  {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-
-    @Override
-    public String toString() {
-        return "Cliente{" + "nome=" + nome + ", endereco=" + endereco + ", telefone=" + telefone + ", id=" + id + ", cpf=" + cpf + '}';
-    }
-   
-   
-   
-   
-    
 }

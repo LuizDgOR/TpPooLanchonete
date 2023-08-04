@@ -1,4 +1,6 @@
 
+import model.Cliente;
+
 import java.util.Comparator;
 
 /*
