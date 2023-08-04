@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="TpPooLanchonete">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TpPooLanchonete/gson-2.8.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/TpPooLanchonete/gson-2.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
