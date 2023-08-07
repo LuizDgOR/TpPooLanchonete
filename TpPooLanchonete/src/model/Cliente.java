@@ -3,6 +3,8 @@ package model;/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
+import java.util.List;
+
 /**
  *
  * @author Luiz
@@ -14,16 +16,19 @@ public class Cliente  {
    private String nome;
    private String endereco;
    private String telefone;
-   private String id;
+   private String idCliente;
    private String cpf;
 
-    public Cliente(String nome, String endereco, String telefone, String id, String cpf) {
+   private Pedido pedidoAtivo;
+
+    public Cliente(String nome, String endereco, String telefone, String idCliente, String cpf) {
         this.nome = nome;
         this.endereco = endereco;
         this.telefone = telefone;
-        this.id = id;
+        this.idCliente = idCliente;
         this.cpf = cpf;
     }
+
 
     public String getNome() {
         return nome;
@@ -49,12 +54,12 @@ public class Cliente  {
         this.telefone = telefone;
     }
 
-    public String getId() {
-        return id;
+    public String getIdCliente() {
+        return idCliente;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setIdCliente(String id) {
+        this.idCliente = idCliente;
     }
 
     public String getCpf() {
@@ -63,5 +68,13 @@ public class Cliente  {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+
+    public Pedido getPedidoAtivo() {
+        return pedidoAtivo;
+    }
+
+    public void setPedidoAtivo(Pedido pedidoAtivo) {
+        this.pedidoAtivo = pedidoAtivo;
     }
 }

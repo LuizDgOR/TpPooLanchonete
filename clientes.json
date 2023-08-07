@@ -1,0 +1,44 @@
+[
+  {
+    "nome": "Luiz",
+    "endereco": "Rua vbn",
+    "telefone": "987546332",
+    "idCliente": "57c520b3-a475-4619-91d5-55effd498243",
+    "cpf": "84521523652"
+  },
+  {
+    "nome": "Maria",
+    "endereco": "Rua 852",
+    "telefone": "988754565",
+    "idCliente": "8c962d1d-5897-4c03-8920-b536be9e8b7f",
+    "cpf": "54216325485"
+  },
+  {
+    "nome": "joao ",
+    "endereco": "Rua 456",
+    "telefone": "988652541",
+    "idCliente": "25a46cde-b327-41e6-9f48-9b489271e7ad",
+    "cpf": "45212362541"
+  },
+  {
+    "nome": "Ana",
+    "endereco": "Rua rffd",
+    "telefone": "988546521",
+    "idCliente": "3f849d95-d3d0-4adf-a570-41e3fed21fba",
+    "cpf": "45784525487"
+  },
+  {
+    "nome": "Lucio",
+    "endereco": "AV. Avcc",
+    "telefone": "986554232",
+    "idCliente": "55e14d72-cb3b-494b-9cf6-2aeb216c1bc2",
+    "cpf": "85695874585"
+  },
+  {
+    "nome": "Amanda",
+    "endereco": "Rua dff",
+    "telefone": "986554525",
+    "idCliente": "a4e1c088-1caf-4347-b7ad-47254c7baf49",
+    "cpf": "85698547854"
+  }
+]

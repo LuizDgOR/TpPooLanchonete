@@ -1,11 +1,15 @@
 package model;
 
+import java.awt.*;
+import java.util.List;
+
 public class Pedido {
     private String numeroPedido;
     private String id;
     private String descricao;
 
     private String preco;
+
 
     public Pedido(String numeroPedido, String id, String descricao, String preco) {
         this.numeroPedido = numeroPedido;
