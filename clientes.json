@@ -40,5 +40,12 @@
     "telefone": "986554525",
     "idCliente": "a4e1c088-1caf-4347-b7ad-47254c7baf49",
     "cpf": "85698547854"
+  },
+  {
+    "nome": "Mauricio",
+    "endereco": "Rua 123",
+    "telefone": "988456332",
+    "idCliente": "2c6d8cf3-3c7f-4e35-9b52-2dd24c5dff48",
+    "cpf": "14785425632"
   }
 ]

@@ -1,6 +1,7 @@
 package model;
 
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Pedido {
@@ -10,14 +11,19 @@ public class Pedido {
 
     private String preco;
 
+    private List<Produto> produtoPedido; // Adicione a lista de produtos
 
-    public Pedido(String numeroPedido, String id, String descricao, String preco) {
+    public Pedido(){
+
+    }
+    /*public Pedido(String numeroPedido, String id, String descricao, String preco) {
         this.numeroPedido = numeroPedido;
         this.id = id;
         this.descricao = descricao;
         this.preco = preco;
+        this.produtoPedido = new ArrayList<>();
     }
-
+    */
     public String getNumeroPedido() {
         return numeroPedido;
     }
@@ -48,6 +54,14 @@ public class Pedido {
 
     public void setPreco(String preco) {
         this.preco = preco;
+    }
+
+    public List<Produto> getProdutos() {
+        return produtoPedido;
+    }
+
+    public void setProdutos(List<Produto> produtos) {
+        this.produtoPedido= produtos;
     }
 }
 

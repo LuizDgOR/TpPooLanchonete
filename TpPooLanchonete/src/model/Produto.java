@@ -43,4 +43,13 @@ public class Produto{
     public void setPreco(String preco) {
         this.preco = preco;
     }
+
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "nomeProduto='" + nomeProduto + '\'' +
+                ", Idproduto='" + Idproduto + '\'' +
+                ", preco='" + preco + '\'' +
+                '}';
+    }
 }

@@ -1013,3 +1013,32 @@ public class Sistema {
 	}
     }
     }
+        while (!nomeProdutoEscolhido.equals("0")) {
+            Produto produtoEscolhido = null;
+
+            for (Produto produto : serviceProduto.getProdutoList()) {
+                System.out.println("Nome lido: " + nomeProdutoEscolhido);
+                System.out.println("Nome do produto no JSON: " + produto.getNomeProduto());
+
+                if (produto.getNomeProduto().equalsIgnoreCase(nomeProdutoEscolhido)) {
+                    produtoEscolhido = produto;
+                    break;
+                }
+            }
+
+
+            if (produtoEscolhido != null) {
+                if (!pedidoList.isEmpty()) {
+                    Pedido ultimoPedido = pedidoList.get(pedidoList.size() - 1);
+                    ultimoPedido.getProdutos().add(produtoEscolhido);
+                    System.out.println("Produto adicionado ao pedido: " + produtoEscolhido.getNomeProduto());
+                } else {
+                    System.out.println("Não há pedidos na lista.");
+                }
+            } else {
+                System.out.println("Nome de produto inválido.");
+            }
+
+            System.out.print("Digite o nome do próximo produto ou '0' para sair: ");
+            nomeProdutoEscolhido = scanner.nextLine().trim();
+        }

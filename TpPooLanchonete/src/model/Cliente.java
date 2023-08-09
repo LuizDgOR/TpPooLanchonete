@@ -70,11 +70,15 @@ public class Cliente  {
         this.cpf = cpf;
     }
 
-    public Pedido getPedidoAtivo() {
-        return pedidoAtivo;
-    }
-
-    public void setPedidoAtivo(Pedido pedidoAtivo) {
-        this.pedidoAtivo = pedidoAtivo;
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "nome='" + nome + '\'' +
+                ", endereco='" + endereco + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", idCliente='" + idCliente + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", pedidoAtivo=" + pedidoAtivo +
+                '}';
     }
 }
