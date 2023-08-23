@@ -26,7 +26,7 @@ public class ServiceProduto implements ArquivoJson<Produto> {
     public boolean verificarIdProduto(String idProduto) {
         for (Produto produto : produtoList) {
             if (produto.getIdproduto().equalsIgnoreCase(idProduto)) {
-                return true; // Retorna true se o cliente com o mesmo ID já existir
+                return true; // Retorna true se o id produto com o mesmo ID já existir
             }
         }
         return false; // Retorna false se o cliente com o mesmo ID não existir

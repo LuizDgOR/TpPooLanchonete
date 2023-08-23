@@ -32,9 +32,12 @@ public class TpLanchonete {
         //ServiceProduto serviceProduto = new ServiceProduto();
         ServiceProduto serviceProduto = new ServiceProduto();
         ServiceJson serviceJson = new ServiceJson();
+        ServicePedido servicePedido = new ServicePedido();
 
         //acessa a lista dos produtos
         List<Produto> produtoList = serviceProduto.getProdutoList();
+
+        List<Pedido> pedidoList = servicePedido.getPedidoList();
 
         //acessa cliente list
         List<Cliente> clienteList = serviceCliente.getClienteList();
@@ -78,9 +81,12 @@ public class TpLanchonete {
         */
 
 
-        ServicePedido servicePedido = new ServicePedido();
+        servicePedido.adicionarProduto();
 
-        servicePedido.compararEAdicionarPedido(produtoList);
+        // Iterar sobre a lista e exibir os pedidos
+        for (Pedido pedido : pedidoList) {
+            System.out.println(pedido.toString());
+        }
 
     }
     }
